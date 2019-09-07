@@ -1,0 +1,25 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayanahawk/twitter-bot.git"
+  },
+  "author": "Ayana Hawk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayanahawk/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/ayanahawk/twitter-bot#readme"
+}
