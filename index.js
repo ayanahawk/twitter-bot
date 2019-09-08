@@ -4,7 +4,7 @@ const config = require('./src/config');
 const Bot = new Twit(config);
 
 // setting my time interval
-const tenSeconds = 1000;
+const hourly = 3600000000;
 
 function tweet(txt) {
   Bot.post(
@@ -24,8 +24,8 @@ function tweet(txt) {
 
 // for I can post a random tweet
 function tweetRandomNumber() {
-  const randomNumber = Math.floor(Math.random() * 1000);
+  const randomNumber = Math.floor(Math.random() * 3600000000);
   tweet(randomNumber);
 }
 
-setInterval(tweetRandomNumber, tenSeconds);
+setInterval(tweetRandomNumber, hourly);
